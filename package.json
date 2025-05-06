@@ -6,8 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "preview": "npm run build && vercel deploy --prebuilt --confirm",
-    "deploy": "npm run build && vercel deploy --prebuilt --prod --confirm",
+    "preview": "npm run build && vercel deploy --prebuilt --yes",
+    "deploy": "npm run build && vercel deploy --prebuilt --prod --yes",
     "lint": "next lint"
   },
   "dependencies": {
