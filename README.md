@@ -1,6 +1,39 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## 🚀 Next.js + Vercel Deployment Setup
+
+This project uses [Vercel](https://vercel.com/) for preview and production deployments via the Vercel CLI.
+
+### 📦 Install
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/JanHamara/nextjs-boilerplate
+cd nextjs-boilerplate
+npm install
+```
+
+Make sure you're authenticated and linked to the correct Vercel project:
+```bash
+npx vercel login           # Log in to your Vercel account
+npx vercel link            # Link local project to Vercel
+```
+
+📤 Deploy Commands
+
+▶️ Preview Deployment (Recommended for testing)
+```bash
+npm run preview
+```
+
+🚀 Production Deployment
+```bash
+npm run deploy
+```
+
+
+## Development
 
 First, run the development server:
 
